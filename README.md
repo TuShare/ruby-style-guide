@@ -2860,15 +2860,18 @@ condition](#safe-assignment-in-condition).
 <sup>[[link](#no-mutable-keys)]</sup>
 
 * <a name="hash-literals"></a>
-  Use the Ruby 1.9 hash literal syntax when your hash keys are symbols.
+  Always use the hash rocket hash literal syntax. Most of this guide uses
+  1.9 syntax, however I'm changing it because it's better to only have a
+  single hash literal syntax rather than the small convinience that 1.9
+  syntax gives you in the case of Hashes with symbol keys.
 <sup>[[link](#hash-literals)]</sup>
 
   ```Ruby
   # bad
-  hash = { :one => 1, :two => 2, :three => 3 }
+  hash = { one: 1, two: 2, three: 3 }
 
   # good
-  hash = { one: 1, two: 2, three: 3 }
+  hash = { :one => 1, :two => 2, :three => 3 }
   ```
 
 * <a name="no-mixed-hash-syntaces"></a>
