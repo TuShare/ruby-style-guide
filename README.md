@@ -3,6 +3,9 @@
 > Role models are important. <br/>
 > -- Officer Alex J. Murphy / RoboCop
 
+*This is the TuShare version of the Ruby Style Guide. It contains our own opinions.
+Pull Requests are welcome.*
+
 One thing has always bothered me as a Ruby developer - Python developers have a
 great programming style reference
 ([PEP-8][]) and we never got an official
